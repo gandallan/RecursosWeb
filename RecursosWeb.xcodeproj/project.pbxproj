@@ -13,6 +13,7 @@
 		81D32C921C6E302C002855E1 /* RecursosWeb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81D32C901C6E302C002855E1 /* RecursosWeb.xcdatamodeld */; };
 		81D32C941C6E302C002855E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D32C931C6E302C002855E1 /* Assets.xcassets */; };
 		81D32C971C6E302C002855E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D32C951C6E302C002855E1 /* LaunchScreen.storyboard */; };
+		81D32C9F1C6E32E0002855E1 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D32C9E1C6E32E0002855E1 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		81D32C931C6E302C002855E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81D32C961C6E302C002855E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81D32C981C6E302C002855E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D32C9E1C6E32E0002855E1 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				81D32C891C6E302C002855E1 /* AppDelegate.swift */,
 				81D32C8B1C6E302C002855E1 /* ViewController.swift */,
+				81D32C9E1C6E32E0002855E1 /* Reachability.swift */,
 				81D32C8D1C6E302C002855E1 /* Main.storyboard */,
 				81D32C931C6E302C002855E1 /* Assets.xcassets */,
 				81D32C951C6E302C002855E1 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				81D32C8C1C6E302C002855E1 /* ViewController.swift in Sources */,
 				81D32C8A1C6E302C002855E1 /* AppDelegate.swift in Sources */,
+				81D32C9F1C6E32E0002855E1 /* Reachability.swift in Sources */,
 				81D32C921C6E302C002855E1 /* RecursosWeb.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
